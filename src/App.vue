@@ -1,15 +1,18 @@
 <template>
-  <Modal v-model:agree="content" v-model:name.maj="name" />
-  <p>{{ content }}</p>
-  <p>{{ name }}</p>
+  <Enfant class="container" @click="handler" />
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
 import Modal from './Modal.vue';
 
-const content = ref(null);
-const name = ref('');
+function handler() {
+  console.log('clic !');
+}
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.container {
+  background-color: blue;
+}
+</style>

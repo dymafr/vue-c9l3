@@ -3,8 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import Modal from './Modal.vue';
+import Enfant from './Enfant.vue';
 
 function handler() {
   console.log('clic !');
@@ -13,6 +12,6 @@ function handler() {
 
 <style scoped lang="scss">
 .container {
-  background-color: blue;
+  color: blue;
 }
 </style>

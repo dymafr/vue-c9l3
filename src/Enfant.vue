@@ -9,4 +9,8 @@ import { useAttrs } from 'vue';
 const attrs = useAttrs();
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.container {
+  background-color: red;
+}
+</style>
